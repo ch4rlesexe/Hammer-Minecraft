@@ -1,0 +1,7 @@
+name: Hammer
+version: '1.0'
+main: org.ch4rlesexe.hammer.Hammer
+api-version: '1.21'
+commands:
+  hammer:
+    usage: /hammer
