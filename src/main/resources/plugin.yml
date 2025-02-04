@@ -1,7 +1,13 @@
-name: Hammer
+name: TrenchPickaxePlugin
 version: '1.0'
-main: org.ch4rlesexe.hammer.Hammer
+main: org.ch4rlesexe.hammer.TrenchPickaxePlugin
 api-version: '1.21'
 commands:
-  hammer:
-    usage: /hammer
+  trenchcreate:
+    description: Opens the trench pickaxe creation GUI.
+    usage: /trenchcreate
+    permission: trenchpickaxe.create
+  trenchgive:
+    description: Opens a GUI to select a custom trench pickaxe (or gives one if arguments are provided).
+    usage: /trenchgive [player] [pickaxeID]
+    permission: trenchpickaxe.give
